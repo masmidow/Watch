@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HAND POSITION OFFSET (in pixels)                          -
+       - VALUE: 0  - top of the hand touches perimeter of watch.   -
+       - VALUE: >0 - top of the hand is moved away from perimeter. -
+       - It's easy to see if you play with the values.             -->
+
+    <integer name="hourHandPositionOffset">10</integer>
+    <integer name="minuteHandPositionOffset">10</integer>
+    <integer name="secondHandPositionOffset">10</integer>
+
+    <!-- HAND SIZE RATIO (in float with range [25 - 100]) -
+       - The hand sizes are already half the screen size -
+       - So, 100 means half screen. 50 means quarter. 25 means eighth.
+       - I'll make it more clear in the future                           -->
+    <integer name="hourHandSize">100</integer>
+    <integer name="minuteHandSize">100</integer>
+    <integer name="secondHandSize">100</integer>
+    
+</resources>
